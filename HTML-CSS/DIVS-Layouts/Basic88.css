@@ -1,0 +1,58 @@
+.container {
+  overflow: auto;
+}
+.row1 {
+  background: #c0bae7;
+  color: white;
+  height: 80px;
+}
+header {
+  width: 800px;
+  background: gray;
+  margin: auto;
+}
+.basic {
+  width: 220px;
+  float: left;
+  margin-top: 10px;
+}
+.basic h1 {
+  padding: 0;
+  margin: 0;
+}
+.basic p {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  float: right;
+  margin-top: 13px;
+  background: black;
+}
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+  font-size: 20px;
+}
+.row2 {
+  margin-top: 20px;
+  margin: auto;
+  width: 800px;
+}
+.row2 img {
+  margin-top: 30px;
+}
+.row3 {
+  width: 800px;
+  margin: auto;
+}
+.childs {
+  float: left;
+  width: 230px;
+  height: 150px;
+  margin-right: 25px;
+}
+figure img {
+  width: 230px;
+  height: 150px;
+}

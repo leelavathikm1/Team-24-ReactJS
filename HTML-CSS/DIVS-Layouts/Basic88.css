@@ -1,3 +1,7 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .container {
   overflow: auto;
 }
@@ -44,15 +48,134 @@ nav ul li {
 }
 .row3 {
   width: 800px;
-  margin: auto;
+  margin: 0 auto;
+  overflow: auto;
+  margin-top: 20px;
 }
 .childs {
   float: left;
   width: 230px;
-  height: 150px;
+  /* height: 150px; */
   margin-right: 25px;
+}
+.child3 {
+  float: right;
+  width: 240px;
+  /* height: 150px; */
 }
 figure img {
   width: 230px;
   height: 150px;
+  border: 1px solid;
+  padding: 4px;
+}
+figure {
+  width: 245px;
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  width: 245px;
+  padding: 0;
+  margin: 0;
+}
+ffigure img {
+  width: 235px;
+  height: 150px;
+  border: 1px solid;
+  padding: 4px;
+}
+figcaption p {
+  font-size: 15px;
+  color: gray;
+}
+p.paraLink {
+  float: right;
+  font-size: 10px;
+  /* color: orange; */
+}
+a {
+  color: orange;
+  text-decoration: none;
+  font-size: 10px;
+}
+.row4 {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+  margin-top: 20px;
+}
+article {
+  width: 390px;
+  float: left;
+}
+aside {
+  width: 390px;
+  float: right;
+}
+aside img {
+  border: 1px solid;
+  padding: 4px;
+}
+.row5 {
+  background: #c0bae7;
+}
+section {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+}
+/* .sections {
+  width: 195px;
+  float: left;
+} */
+.sections4 {
+  width: 187px;
+  float: right;
+}
+.sections {
+  width: 187px;
+  float: left;
+  margin-right: 14px;
+}
+.sections ul {
+  list-style: none;
+  padding: 0;
+}
+.sections ul li {
+  font-size: 11px;
+  color: orange;
+  line-height: 2em;
+  border-bottom: 1px solid lightcoral;
+}
+.sections4 ul {
+  list-style: none;
+  padding: 0;
+}
+.sections4 ul li {
+  font-size: 11px;
+  color: orange;
+  line-height: 2em;
+  border-bottom: 1px solid lightcoral;
+}
+.row6 {
+  background: black;
+  color: white;
+}
+footer {
+  width: 800px;
+  margin: auto;
+  overflow: auto;
+}
+p#footerPara1 {
+  float: left;
+  font-size: 13px;
+}
+p#footerPara2 {
+  float: right;
+  font-size: 13px;
+}
+article p {
+  font-size: 13px;
 }

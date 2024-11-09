@@ -1,0 +1,6 @@
+body .main{
+	background:url('images/bottom-rept.jpg') repeat-x;
+	background-position:left bottom;
+	width:100%;
+	float:left;
+		}
